@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "f44b0f1f-4db1-429d-a4cc-ea10de8a269d",
+		"name": "APITestAutomation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42654638"
+	},
+	"item": [
+		{
+			"name": "htps://reqres.in/api/users?page=2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "htps://reqres.in/api/users?page=2",
+					"protocol": "htps",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
